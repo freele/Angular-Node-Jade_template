@@ -9,7 +9,7 @@ angular.module('adminApp', [
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: 'views/main.html',
+        templateUrl: '/templates/main.html',
         controller: 'MainCtrl'
       })
       .otherwise({

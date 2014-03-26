@@ -7,6 +7,6 @@ exports.index = function(req, res){
 };
 
 exports.partials = function (req, res) {
-  var name = req.params.name;
+  var name = req.params.template;
   res.render('partials/' + name);
 };
