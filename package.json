@@ -1,0 +1,30 @@
+{
+  "name": "distribut",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "~4.0.0-rc4",
+    "static-favicon": "~1.0.0",
+    "cookie-parser": "~1.0.1",
+    "debug": "~0.7.4",
+    "stylus": "0.42.3",
+    "morgan": "~1.0.0",
+    
+    "body-parser": "~1.0.0",
+    "method-override": "~1.0.0",
+    "jade": "~0.31.2",
+    "mongoose": "~3.6.20",
+    "kew": ">= 0.3.4"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-release": "~0.4.0"
+  },
+  "scripts": {
+    "start": "./node_modules/.bin/coffee server.coffee",
+    "test": "./node_modules/.bin/jasmine-node test/spec --coffee --verbose"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  }
+}
